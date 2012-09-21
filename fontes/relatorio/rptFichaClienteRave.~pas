@@ -1,0 +1,24 @@
+unit rptFichaClienteRave;
+
+interface
+
+uses
+  Windows, Messages, SysUtils, Variants, Classes, Graphics, Controls, Forms,
+  Dialogs;
+
+type
+  TrptFichaClientefrm = class(TForm)
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  rptFichaClientefrm: TrptFichaClientefrm;
+
+implementation
+
+{$R *.dfm}
+
+end.
