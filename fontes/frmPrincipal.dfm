@@ -29070,7 +29070,7 @@ object frmPricipal: TfrmPricipal
         3E38222A26010101000000000000000000000000000000000000000000000000
         4B00}
       Layout = blGlyphTop
-      OnClick = Produtos1Click
+      OnClick = SpeedButton3Click
     end
     object SpeedButton4: TSpeedButton
       Left = 208
@@ -29171,6 +29171,14 @@ object frmPricipal: TfrmPricipal
         4B00}
       Layout = blGlyphTop
     end
+    object SpeedButton5: TSpeedButton
+      Left = 296
+      Top = 8
+      Width = 65
+      Height = 65
+      Caption = 'Grafico'
+      OnClick = SpeedButton5Click
+    end
   end
   object MainMenu1: TMainMenu
     Images = ImageList1
@@ -29191,7 +29199,6 @@ object frmPricipal: TfrmPricipal
       object Produtos1: TMenuItem
         Caption = 'Produtos'
         ImageIndex = 15
-        OnClick = Produtos1Click
       end
       object Funcionarios1: TMenuItem
         Caption = 'Funcionarios'
@@ -30978,5 +30985,16 @@ object frmPricipal: TfrmPricipal
       010900000000000180018001F813000380038003F83F0003C003C007F83FC003
       E007F00FFC3FF803F81FFE7FFC7FFF0700000000000000000000000000000000
       000000000000}
+  end
+  object conectPrincipal: TZConnection
+    Protocol = 'mysql'
+    HostName = 'localhost'
+    Port = 3306
+    Database = 'aula1'
+    User = 'root'
+    Password = '123456'
+    Connected = True
+    Left = 336
+    Top = 216
   end
 end

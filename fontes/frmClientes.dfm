@@ -1164,7 +1164,7 @@ object formClientes: TformClientes
       Top = 2
       Width = 859
       Height = 464
-      ActivePage = TabSheet2
+      ActivePage = TabSheet1
       Align = alClient
       TabOrder = 0
       object TabSheet1: TTabSheet
@@ -1687,10 +1687,10 @@ object formClientes: TformClientes
     Port = 3306
     Database = 'aula1'
     User = 'root'
-    Password = '99463782'
+    Password = '123456'
     Connected = True
-    Left = 710
-    Top = 443
+    Left = 694
+    Top = 403
   end
   object dtsCliente: TDataSource
     DataSet = qryCliente

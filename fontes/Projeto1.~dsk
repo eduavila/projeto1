@@ -1,46 +1,65 @@
 [Closed Files]
-File_0=SourceModule,'C:\Program Files (x86)\Borland\zeus\src\dbc\ZDbcMySqlUtils.pas',0,1,380,1,391,0,0
-File_1=SourceModule,'E:\aulas\projeto_1 - Cópia\fontes\relatorio\rptFichaCliente.pas',0,1,13,33,12,1,0
-File_2=SourceModule,'C:\Program Files (x86)\Borland\zeus\src\component\ZDatasetUtils.pas',0,1,575,1,586,0,0
-File_3=SourceModule,'E:\aulas\projeto_1 - Cópia\fontes\frmCalendario.pas',0,1,1,1,1,0,0
-File_4=SourceModule,'E:\aulas\projeto_1 - Cópia\fontes\frmProdutos.pas',0,1,1,6,22,0,0
+File_0=SourceModule,'C:\Program Files (x86)\Borland\zeus\src\core\ZMessages.pas',0,1,1728,1,1728,0,0
+File_1=SourceModule,'C:\Program Files (x86)\Borland\zeus\src\dbc\ZDbcMySqlUtils.pas',0,1,380,1,391,0,0
+File_2=SourceModule,'E:\aulas\projeto_1 - Cópia\fontes\relatorio\rptFichaCliente.pas',0,1,13,33,12,1,0
+File_3=SourceModule,'C:\Program Files (x86)\Borland\zeus\src\component\ZDatasetUtils.pas',0,1,575,1,586,0,0
+File_4=SourceModule,'E:\aulas\projeto_1 - Cópia\fontes\frmCalendario.pas',0,1,1,1,1,0,0
+File_5=SourceModule,'E:\aulas\projeto_1 - Cópia\fontes\frmProdutos.pas',0,1,1,6,22,0,0
 
 [Modules]
-Module0=E:\aulas\projeto_1 - Cópia\fontes\frmClientes.pas
-Module1=E:\aulas\projeto_1 - Cópia\fontes\relatorio\rptFichaClienteRave.pas
-Module2=E:\aulas\projeto_1 - Cópia\fontes\frmFornecedores.pas
-Module3=E:\aulas\projeto_1 - Cópia\fontes\frmPrincipal.pas
-Module4=E:\aulas\projeto_1 - Cópia\fontes\Projeto1.dpr
-Module5=E:\aulas\projeto_1 - Cópia\fontes\frmAbertura.pas
-Count=6
+Module0=E:\aulas\projeto-Delphi\fontes\frmProdutos.pas
+Module1=E:\aulas\projeto-Delphi\fontes\frmFornecedores.pas
+Module2=E:\aulas\projeto-Delphi\fontes\frmClientes.pas
+Module3=E:\aulas\projeto-Delphi\fontes\frm_dtmPrincipal.pas
+Module4=C:\Users\Eduardo\Pictures\Delphi Developer\Images\Icons\frmSobre.pas
+Module5=E:\aulas\projeto-Delphi\fontes\frmPrincipal.pas
+Module6=E:\aulas\projeto-Delphi\fontes\frmCalendario.pas
+Module7=E:\aulas\projeto-Delphi\fontes\frmAbertura.pas
+Module8=E:\aulas\projeto-Delphi\fontes\Projeto1.dpr
+Count=9
 EditWindowCount=1
 
-[E:\aulas\projeto_1 - Cópia\fontes\frmClientes.pas]
+[E:\aulas\projeto-Delphi\fontes\frmProdutos.pas]
 ModuleType=SourceModule
 FormState=1
 FormOnTop=0
 
-[E:\aulas\projeto_1 - Cópia\fontes\relatorio\rptFichaClienteRave.pas]
+[E:\aulas\projeto-Delphi\fontes\frmFornecedores.pas]
+ModuleType=SourceModule
+FormState=3
+FormOnTop=1
+
+[E:\aulas\projeto-Delphi\fontes\frmClientes.pas]
+ModuleType=SourceModule
+FormState=3
+FormOnTop=1
+
+[E:\aulas\projeto-Delphi\fontes\frm_dtmPrincipal.pas]
 ModuleType=SourceModule
 FormState=1
 FormOnTop=0
 
-[E:\aulas\projeto_1 - Cópia\fontes\frmFornecedores.pas]
+[C:\Users\Eduardo\Pictures\Delphi Developer\Images\Icons\frmSobre.pas]
 ModuleType=SourceModule
 FormState=1
 FormOnTop=0
 
-[E:\aulas\projeto_1 - Cópia\fontes\frmPrincipal.pas]
+[E:\aulas\projeto-Delphi\fontes\frmPrincipal.pas]
 ModuleType=SourceModule
 FormState=1
 FormOnTop=0
 
-[E:\aulas\projeto_1 - Cópia\fontes\Projeto1.dpr]
+[E:\aulas\projeto-Delphi\fontes\frmCalendario.pas]
 ModuleType=SourceModule
-FormState=0
+FormState=1
+FormOnTop=1
+
+[E:\aulas\projeto-Delphi\fontes\frmAbertura.pas]
+ModuleType=SourceModule
+FormState=1
 FormOnTop=0
 
-[E:\aulas\projeto_1 - Cópia\fontes\frmAbertura.pas]
+[E:\aulas\projeto-Delphi\fontes\Projeto1.dpr]
 ModuleType=SourceModule
 FormState=0
 FormOnTop=0
@@ -50,21 +69,24 @@ FormState=0
 FormOnTop=0
 
 [EditWindow0]
-ViewCount=6
-CurrentView=4
+ViewCount=9
+CurrentView=7
 View0=0
 View1=1
 View2=2
 View3=3
 View4=4
 View5=5
+View6=6
+View7=7
+View8=8
 CodeExplorer=CodeExplorer@EditWindow0
 MessageView=MessageView@EditWindow0
 Create=1
 Visible=1
 State=0
 Left=213
-Top=146
+Top=153
 Width=926
 Height=485
 MaxLeft=-1
@@ -77,48 +99,69 @@ LeftPanelData=000004000000000000000000000000000000000000000000000100000000000000
 RightPanelSize=0
 BottomPanelSize=0
 BottomPanelClients=MessageView@EditWindow0
-BottomPanelData=00000400010000000B0000004D657373616765566965778E030000000000000255000000000000000100000000000000000000000001000000008E0300000B0000004D65737361676556696577FFFFFFFF
+BottomPanelData=00000400010000000B0000004D657373616765566965778E030000000000000255000000000000000100000000000000000000000001000000008E0300000000000001000000008E0300000000000001000000008E0300000B0000004D65737361676556696577FFFFFFFF
 
 [View0]
-Module=E:\aulas\projeto_1 - Cópia\fontes\Projeto1.dpr
-CursorX=15
-CursorY=10
-TopLine=13
+Module=E:\aulas\projeto-Delphi\fontes\Projeto1.dpr
+CursorX=1
+CursorY=33
+TopLine=8
 LeftCol=1
 
 [View1]
-Module=E:\aulas\projeto_1 - Cópia\fontes\frmAbertura.pas
-CursorX=45
-CursorY=39
-TopLine=23
-LeftCol=1
-
-[View2]
-Module=E:\aulas\projeto_1 - Cópia\fontes\frmFornecedores.pas
-CursorX=32
-CursorY=252
-TopLine=164
-LeftCol=1
-
-[View3]
-Module=E:\aulas\projeto_1 - Cópia\fontes\relatorio\rptFichaClienteRave.pas
-CursorX=28
-CursorY=11
-TopLine=19
-LeftCol=1
-
-[View4]
-Module=E:\aulas\projeto_1 - Cópia\fontes\frmClientes.pas
-CursorX=32
-CursorY=9
+Module=E:\aulas\projeto-Delphi\fontes\frmAbertura.pas
+CursorX=1
+CursorY=1
 TopLine=1
 LeftCol=1
 
-[View5]
-Module=E:\aulas\projeto_1 - Cópia\fontes\frmPrincipal.pas
+[View2]
+Module=E:\aulas\projeto-Delphi\fontes\frmCalendario.pas
 CursorX=1
-CursorY=74
-TopLine=63
+CursorY=1
+TopLine=1
+LeftCol=1
+
+[View3]
+Module=E:\aulas\projeto-Delphi\fontes\frmClientes.pas
+CursorX=52
+CursorY=328
+TopLine=320
+LeftCol=1
+
+[View4]
+Module=E:\aulas\projeto-Delphi\fontes\frmFornecedores.pas
+CursorX=1
+CursorY=264
+TopLine=251
+LeftCol=1
+
+[View5]
+Module=E:\aulas\projeto-Delphi\fontes\frmPrincipal.pas
+CursorX=1
+CursorY=131
+TopLine=115
+LeftCol=1
+
+[View6]
+Module=E:\aulas\projeto-Delphi\fontes\frm_dtmPrincipal.pas
+CursorX=43
+CursorY=44
+TopLine=40
+LeftCol=1
+
+[View7]
+Module=E:\aulas\projeto-Delphi\fontes\frmProdutos.pas
+CursorX=16
+CursorY=190
+TopLine=175
+LeftCol=1
+
+[View8]
+Module=C:\Users\Eduardo\Pictures\Delphi Developer\Images\Icons\frmSobre.pas
+CursorX=42
+CursorY=12
+TopLine=1
 LeftCol=1
 
 [Watches]
@@ -240,7 +283,7 @@ LRDockWidth=166
 Dockable=1
 SplitPos=81
 ArrangeBy=Name
-SelectedItem=Name
+SelectedItem=Glyph
 ExpandedItems=DataSource.DataSet
 HiddenCategories=
 
@@ -306,8 +349,8 @@ Column3Width=250
 Create=1
 Visible=1
 State=0
-Left=16
-Top=127
+Left=23
+Top=126
 Width=182
 Height=229
 MaxLeft=-1

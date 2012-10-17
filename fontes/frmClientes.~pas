@@ -6,7 +6,7 @@ uses
   Windows, Messages, SysUtils, Variants, Classes, Graphics, Controls, Forms,
   Dialogs, ComCtrls, ExtCtrls, DBCtrls, StdCtrls, Grids, DBGrids, DB, Mask,
   ZAbstractRODataset, ZAbstractDataset, ZAbstractTable, ZDataset,
-  ZConnection, Buttons, ExtDlgs, sPanel, sEdit;
+  ZConnection, Buttons, ExtDlgs;
 
 type
   TformClientes = class(TForm)

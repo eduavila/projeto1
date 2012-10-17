@@ -5,7 +5,7 @@ interface
 uses
   Windows, Messages, SysUtils, Variants, Classes, Graphics, Controls, Forms,
   Dialogs, Menus, ComCtrls, jpeg, ExtCtrls, Buttons, ImgList, ToolWin,
-  StdCtrls;
+  StdCtrls, ZConnection;
 
 type
   TfrmPricipal = class(TForm)
@@ -40,9 +40,10 @@ type
     Firefox1: TMenuItem;
     Calendario1: TMenuItem;
     Label1: TLabel;
+    conectPrincipal: TZConnection;
+    SpeedButton5: TSpeedButton;
     procedure Clientes2Click(Sender: TObject);
     procedure Fornecedores1Click(Sender: TObject);
-    procedure Produtos1Click(Sender: TObject);
     procedure Timer1Timer(Sender: TObject);
     procedure Sobre1Click(Sender: TObject);
     procedure Calculadora1Click(Sender: TObject);
@@ -50,6 +51,8 @@ type
     procedure Windowsexplorer1Click(Sender: TObject);
     procedure Calendario1Click(Sender: TObject);
     procedure Firefox1Click(Sender: TObject);
+    procedure SpeedButton3Click(Sender: TObject);
+    procedure SpeedButton5Click(Sender: TObject);
   private
     { Private declarations }
   public
@@ -61,8 +64,8 @@ var
 
 implementation
 
-uses  frmClientes, frmFornecedores, frmProdutos, frmSobre,
-  frmCalendario, AberturaFrm;
+uses  frmClientes, frmFornecedores, frmSobre,
+  frmCalendario, AberturaFrm, frmProdutos, frmGrafico;
 
 {$R *.dfm}            
 
@@ -76,18 +79,10 @@ end;
 
 procedure TfrmPricipal.Fornecedores1Click(Sender: TObject);
 begin
-    formFornecedores.Show;
-  // Application.CreateForm(TformFornecedores,formFornecedores);
-  // formFornecedores.ShowModal;
-   //formFornecedores.Free;
-end;
 
-procedure TfrmPricipal.Produtos1Click(Sender: TObject);
-begin
-    // formProdutos.Show;
-    Application.CreateForm(TformProdutos,formProdutos);
-    formProdutos.ShowModal;
-    formProdutos.Free;
+   Application.CreateForm(TformFornecedores,formFornecedores);
+   formFornecedores.ShowModal;
+   formFornecedores.Free;
 end;
 
 procedure TfrmPricipal.Timer1Timer(Sender: TObject);
@@ -129,6 +124,18 @@ end;
 procedure TfrmPricipal.Firefox1Click(Sender: TObject);
 begin
      WinExec('C:\ProgramFiles\MozillaFirefox\firefox.exe http://www.google.com', SW_SHOWNORMAL);
+end;
+
+procedure TfrmPricipal.SpeedButton3Click(Sender: TObject);
+begin
+     Application.CreateForm(TformProdutos,formProdutos);
+     formProdutos.ShowModal;
+     formProdutos.Free;
+end;
+
+procedure TfrmPricipal.SpeedButton5Click(Sender: TObject);
+begin
+    formGraficoVenda.showModal;
 end;
 
 end.

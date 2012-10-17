@@ -864,7 +864,7 @@ object formFornecedores: TformFornecedores
     Port = 3306
     Database = 'aula1'
     User = 'root'
-    Password = '99463782'
+    Password = '123456'
     Connected = True
     Left = 774
     Top = 11

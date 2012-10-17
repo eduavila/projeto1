@@ -90,8 +90,8 @@ MaxStackSize=1048576
 ImageBase=4194304
 ExeDescription=
 [Directories]
-OutputDir=E:\aulas\projeto_1 - Cópia\executavel
-UnitOutputDir=E:\aulas\projeto_1 - Cópia\dcu
+OutputDir=E:\aulas\projeto-Delphi\executavel
+UnitOutputDir=E:\aulas\projeto-Delphi\dcu
 PackageDLLOutputDir=
 PackageDCPOutputDir=
 SearchPath=
@@ -137,10 +137,12 @@ ProductVersion=1.0.0.0
 Count=1
 Item0=WinTypes=Windows;WinProcs=Windows;DbiTypes=BDE;DbiProcs=BDE;DbiErrs=BDE;
 [HistoryLists\hlUnitOutputDirectory]
-Count=2
-Item0=E:\aulas\projeto_1 - Cópia\dcu
-Item1=E:\aulas\projeto_1\dcu
+Count=3
+Item0=E:\aulas\projeto-Delphi\dcu
+Item1=E:\aulas\projeto_1 - Cópia\dcu
+Item2=E:\aulas\projeto_1\dcu
 [HistoryLists\hlOutputDirectorry]
-Count=2
-Item0=E:\aulas\projeto_1 - Cópia\executavel
-Item1=E:\aulas\projeto_1\executavel
+Count=3
+Item0=E:\aulas\projeto-Delphi\executavel
+Item1=E:\aulas\projeto_1 - Cópia\executavel
+Item2=E:\aulas\projeto_1\executavel
